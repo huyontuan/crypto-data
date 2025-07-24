@@ -4,17 +4,17 @@
 
 **Run Q1 (Hash Function Demo):**
 ```
-java HashFunctionDemo
+java Question1/HashFunctionDemo
 ```
 
 **Run Q3 (Digital Signature Demo):**
 ```
-java DigitalSignatureDemo
+java Question3/DigitalSignatureDemo
 ```
 
 **Run Q4 (Simple Blockchain with Timestamping):**
 ```
-java SimpleBlockchainDemo
+java Question4/SimpleBlockchainDemo
 ```
 
 ---
