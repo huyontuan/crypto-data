@@ -1,3 +1,6 @@
+//Name: On Tuan Huy
+//sID: s4028018
+
 package Question1;
 
 import java.security.MessageDigest;
@@ -60,7 +63,8 @@ public class HashFunctionDemo {
     // This simulates how hard it is to reverse a secure hash
     
     public static void preImageDemo() throws Exception {
-        String targetInput = "abc";              // Known input
+        String targetInput = "abc";              // Valid input
+        // String targetInput = "hello";              // Invalid input
         String targetHash = hash(targetInput);   // Compute its hash
         System.out.println("Target input: \"" + targetInput + "\"");
         System.out.println("Target Hash: " + targetHash);
